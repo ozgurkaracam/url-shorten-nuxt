@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-6xl mx-auto px-10;
+}
+
+.btn {
+  @apply cursor-pointer px-5 bg-gradient-to-r from-orange-400 to-orange-800 py-2 rounded-lg text-white border-2 border-orange-600;
+}
+
+.card {
+  @apply text-black bg-white rounded-lg border border-gray-700 p-10;
+}
+
+label {
+  @apply text-black;
+}
+
+input {
+  @apply w-full bg-transparent border border-blue-400 px-2 py-1 my-2;
+}
